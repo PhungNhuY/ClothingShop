@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first_header{
+    background-color: black;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+}
+
+.first_header .title{
+    padding-left: 40px;
+    display: inline;
+}
+
+.first_header .title a{
+    color: white;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.promotions_text{
+    display: inline;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.promotions_text p{
+    display: inline;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 11px;
+}
+
+.toolbar{
+    height: 8vh;
+    background-color: white;
+    position: relative;
+}
+
+.logo{
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 4vh;
+    transform: translate(0, -50%);
+}
+
+.logo img{
+    width: 5vh;
+    height: 5vh;
+}
+
+.menu{
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 12vh;
+    transform: translate(0, -50%);
+    font-size: 11px;
+    font-family: Lato;
+    color: #999;
+    font-weight: 700;
+}
+
+.menu li{
+    display: inline;
+    line-height: 60px;
+    padding: 0 1vw;
+}
+
+.right_menu{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.right_menu i{
+    margin-right: 2vw;
+    color: #999;
+}
+
+
+
+.big_image{
+    height: 85vh;
+}
+
+.image{
+    background-image: url(https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/spring-summer-202206/1024.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
