@@ -6,26 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClothingShop</title>
-    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/bddacbebe6.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
     <div class="first_header">
-        <nav class="text title">
+        <nav class="title">
             <a href="">For him</a>
             <a href="">For her</a>
         </nav>
         <div class="text promotions_text">
-            <p>CUSTOM-TAILORED CLOTHING</p>
+            <p class="promotions_text_detail">CUSTOM-TAILORED CLOTHING</p>
+            <p class="promotions_text_detail">PERFECT FIT GUARANTEE</p>
+            <p class="promotions_text_detail">100% MADE TO MEASURE</p>
         </div>
     </div>
+
     <div class="toolbar">
         <a class="logo" href="">
             <img src="https://d2w9m16hs9jc37.cloudfront.net/images/logos/symbol_hockerty.svg">
         </a>
-        <ul class="text menu">
+        <ul class="menu">
             <li>NEW ARRIVALS</li>
             <li>CLOTHING</li>
             <li>WEDDING</li>
@@ -38,77 +43,86 @@
             <i class="fa-solid fa-cart-shopping"></i>
         </div>
     </div>
+
     <div class="big_image">
         <div class="image"></div>
-        <div class="text lookbook">
+        <div class="lookbook">
             <p>LOOKBOOK SPRING SUMMER</p>
             <a href="">DISCOVER IT</a>
         </div>
     </div>
+
     <div class="mainblock">
         <h3 class="text mainblock_text">All our products are custom made</h3>
     </div>
+
     <div class="slider">
-        <div class="slider_title text">
-            <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/1.Suits.webp">
+        <div class="slider_title text" id="slider_element_0">
+            <img
+                src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/1.Suits.webp">
             <h2 class="slider_text">Suits</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_1">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/2.Shirts.webp"
                 alt="">
             <h2 class="slider_text">Shirts</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_2">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/3.Blazers_summer.webp"
                 alt="">
             <h2 class="slider_text">Blazers</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_3">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/5.Wedding.webp"
                 alt="">
             <h2 class="slider_text">Wedding</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_4">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/12.Jeans.webp"
                 alt="">
             <h2 class="slider_text">Jeans</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_5">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/13.Shoes.webp"
                 alt="">
             <h2 class="slider_text">Shoes</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_6">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/11.Field_jackets.webp"
                 alt="">
             <h2 class="slider_text">Field Jackets</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_7">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/6.Tuxedos.webp"
                 alt="">
             <h2 class="slider_text">Tuxedos</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_8">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/4.Trenchcoats.webp"
                 alt="">
             <h2 class="slider_text">Trenchcoats</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_9">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/7.Vests.webp"
                 alt="">
             <h2 class="slider_text">Vests</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_10">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/9.Wool_coats.webp"
                 alt="">
             <h2 class="slider_text">WoolCoats</h2>
         </div>
-        <div class="slider_title text">
+        <div class="slider_title text" id="slider_element_11">
             <img src="https://d1fufvy4xao6k9.cloudfront.net/images/landing/hockerty/home/main_products_block/10.Polo_shirts_v2.jpg"
                 alt="">
             <h2 class="slider_text">Polo shirts</h2>
         </div>
+
+
+        <div class="buttonlr buttonl" onclick="moveToLeft()">&lt;</div>
+        <div class="buttonlr buttonr" onclick="moveToRight()">></div>
     </div>
+
     <div class="second_block">
         <div class="second_block_left">
             <p>WEDDING</p>
@@ -117,28 +131,69 @@
             <p>CUSTOM JEANS</p>
         </div>
     </div>
+
     <div class="text_block">
         <div class="TmC text">
             <p class="p1">Where Technology meets Craftsmanship</p>
-            <p class="p2">Our approach to fashion brings together the convenience of online shopping and the experience of having clothes custom made. This allows us to offer you a great product at the best price through a touchless experience.</p>
+            <p class="p2">Our approach to fashion brings together the convenience of online shopping and the experience
+                of having clothes custom made. This allows us to offer you a great product at the best price through a
+                touchless experience.</p>
         </div>
     </div>
+
     <div class="third_block">
-        <div class="third_block_left">
-            <div class="third_block_title1">WE FIT EVERYBODY</div>
-            <div class="third_block_title2">Our garments fit every body shape and every fashion style. Hundreds of fabrics and thousands of design options. Buying at Hockerty is a brand new experience. No infinite scroll, no size hesitation, always in stock. A fashion brand that adapts to you. (Made to measure = all sizes.)</div>
+        <div class="third_block_left" onmouseenter="showDes('block3_left_1', 'block3_left_2')"
+            onmouseout="hideDes('block3_left_1', 'block3_left_2')">
+            <div class="third_block_title1" id="block3_left_1">
+                WE FIT EVERYBODY
+            </div>
+            <div class="third_block_title2" id="block3_left_2">
+                Our garments fit every body shape and every fashion style. Hundreds of fabrics and thousands of design
+                options. Buying at Hockerty is a brand new experience. No infinite scroll, no size hesitation, always in
+                stock. A fashion brand that adapts to you. (Made to measure = all sizes.)
+            </div>
         </div>
-        <div class="third_block_right">
-            <div class="third_block_title1">ZERO WASTE PRODUCTION</div>
-            <div class="third_block_title2">We only make garments that are going to be worn. No overstocks dumped on landfills. Plus, we try to offer a diverse range of sustainable fabrics and to optimize our processes to reduce our environmental footprint.</div>
+        <div class="third_block_right" onmouseenter="showDes('block3_right_1', 'block3_right_2')"
+            onmouseout="hideDes('block3_right_1', 'block3_right_2')">
+            <div class="third_block_title1" id="block3_right_1">ZERO WASTE PRODUCTION</div>
+            <div class="third_block_title2" id="block3_right_2">We only make garments that are going to be worn. No
+                overstocks dumped on landfills. Plus, we try to offer a diverse range of sustainable fabrics and to
+                optimize our processes to reduce our environmental footprint.</div>
         </div>
     </div>
+
+    <div class="shop_the_look">
+        <h3>Shop the look</h3>
+        <div class="grid">
+            <img class="look-image" src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/158/tuxedos.jpg"
+                alt="">
+            <img class="look-image"
+                src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/157/monks-with-white-socks.jpg" alt="">
+            <img class="look-image"
+                src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/156/three-piece-grey-suit-1.jpg" alt="">
+            <img class="look-image"
+                src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/155/spring-event-outfit.jpg" alt="">
+            <img class="look-image" src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/118/dapper.jpg"
+                alt="">
+            <img class="look-image" src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/158/tuxedos.jpg"
+                alt="">
+            <img class="look-image"
+                src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/157/monks-with-white-socks.jpg" alt="">
+            <img class="look-image"
+                src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/156/three-piece-grey-suit-1.jpg" alt="">
+            <img class="look-image"
+                src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/155/spring-event-outfit.jpg" alt="">
+            <img class="look-image" src="https://dqp736wsu6w3m.cloudfront.net/s3bucket/w300/looks/118/dapper.jpg"
+                alt="">
+        </div>
+    </div>
+
     <div class="rate">
-        <div class="cus_num text">Over 300,000 satisfied customers</div>
+        <div class="cus_num">Over 300,000 satisfied customers</div>
         <div class="rate_block">
             <div class="profile">
                 <img src="https://d2w9m16hs9jc37.cloudfront.net/dimg/reviews/1928.jpg">
-                <p class="text comment">"Really good fit"</p>
+                <p class="comment">"Really good fit"</p>
                 <p class="text name">Alexey Marenko - Russia</p>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -148,8 +203,8 @@
             </div>
             <div class="profile">
                 <img src="https://d2w9m16hs9jc37.cloudfront.net/dimg/reviews/2207.jpg">
-                <p class="text comment">"Thanks again for helping me!!"</p>
-                <p class="text name">Larren Unruh - United States</p>
+                <p class="comment">"Thanks again for helping me!!"</p>
+                <p class="name">Larren Unruh - United States</p>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -158,8 +213,8 @@
             </div>
             <div class="profile">
                 <img src="https://d2w9m16hs9jc37.cloudfront.net/dimg/reviews/2786.jpg">
-                <p class="text comment">"Nothing quite like that perfectly fitted shirt"</p>
-                <p class="text name">Richard Napper - United Kingdom</p>
+                <p class="comment">"Nothing quite like that perfectly fitted shirt"</p>
+                <p class="name">Richard Napper - United Kingdom</p>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -168,8 +223,8 @@
             </div>
             <div class="profile">
                 <img src="https://d2w9m16hs9jc37.cloudfront.net/dimg/reviews/4835.jpg">
-                <p class="text comment">"Customer for life now"</p>
-                <p class="text name">Jason Laughead - United States</p>
+                <p class="comment">"Customer for life now"</p>
+                <p class="name">Jason Laughead - United States</p>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -178,8 +233,8 @@
             </div>
             <div class="profile">
                 <img src="https://d2w9m16hs9jc37.cloudfront.net/dimg/reviews/7103.jpg">
-                <p class="text comment">"Dressed for Dinner"</p>
-                <p class="text name">Robert Cole - United States</p>
+                <p class="comment">"Dressed for Dinner"</p>
+                <p class="name">Robert Cole - United States</p>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -191,21 +246,29 @@
             <a href="">SEE ALL REVIEWS</a>
         </div>
     </div>
+
     <div class="more_info">
         <div class="featured">FEATURED IN:</div>
         <div>
             <div class="esquire"></div>
             <div class="eawards"></div>
-            <div class="forbes"></div>    
+            <div class="forbes"></div>
             <div class="homme_tendance"></div>
         </div>
     </div>
+
     <div class="about">
-        <img width="55px" height="60px" xlink:href="https://d2w9m16hs9jc37.cloudfront.net/images/logos/symbol_hockerty.svg" src="https://d2w9m16hs9jc37.cloudfront.net/images/logos/symbol_hockerty.svg" data-height="66" alt="Hockerty">
+        <img width="55px" height="60px"
+            xlink:href="https://d2w9m16hs9jc37.cloudfront.net/images/logos/symbol_hockerty.svg"
+            src="https://d2w9m16hs9jc37.cloudfront.net/images/logos/symbol_hockerty.svg" data-height="66"
+            alt="Hockerty">
         <p>About Hockerty</p>
-        <p class="des">Founded in 2008, Hockerty is the e-commerce leader in <b>custom suits</b> and <b>custom dress shirts</b>, as we offer our customers complete freedom to design their own clothes by choosing from a wide range of styles and fabrics.</p>
+        <p class="des">Founded in 2008, Hockerty is the e-commerce leader in <b>custom suits</b> and <b>custom dress
+                shirts</b>, as we offer our customers complete freedom to design their own clothes by choosing from a
+            wide range of styles and fabrics.</p>
         <a href=""><b>know more</b></a>
     </div>
+
     <div class="contact">
         <div class="contact_block">
             <p>QUESTIONS</p>
@@ -246,7 +309,13 @@
             <a href="">HOCKERTY TAILOR MAGAZINE</a>
         </div>
     </div>
+
     <div class="footter"></div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript"  src="index.js"></script>
 </body>
 
 </html>
